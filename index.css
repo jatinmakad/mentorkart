@@ -573,7 +573,29 @@ text-align: left;
  /* transform: translateY(-20px);
  transform: translateX(-25px); */
 }
-
+@media (max-width: 958px) {
+  .banner-inner-main-pp{
+    padding: 8px !important;
+  }
+  .banner-inner-main-text{
+    font-size:xx-large !important;
+  }
+  .banner-inner-main-container{
+    font-size: smaller !important;
+  }
+  .membership-row{
+    width: 90% !important;
+  }
+  .membership-row-text{
+    font-size: xx-large;
+  }
+  .membership-row-div h1{
+    font-size:x-large !important;
+  }
+  .membership-row-div p{
+    font-size: smaller;
+  }
+}
 @media (max-width: 777px) {
   .navbar{
     background-color: #06807D;
@@ -597,7 +619,7 @@ text-align: left;
   }
   .banner-img{
     border-top-right-radius: 0;
-    height: 300px;
+    height: 400px;
     border-bottom-right-radius: 0;
   }
   .banner-inner-main-text{
@@ -718,6 +740,12 @@ text-align: left;
   }
   .content {
     padding: 0;
+  }
+  .nav-pills{
+    padding: 0 !important;
+  }
+  .nav-pills-inner{
+    padding: 0 !important;
   }
   .faq-outer h1 {
     margin-left: 15px;
