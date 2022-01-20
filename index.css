@@ -742,6 +742,9 @@ text-align: left;
   .min-footer{
     width: 90% !important;
   }
+  .owl-carousel .owl-nav{
+    width: 50% !important;
+  }
   .google-outer-text{
     width: 95%;
   }
