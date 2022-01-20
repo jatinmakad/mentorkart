@@ -108,6 +108,12 @@ body {
   border-radius: 20px;
 }
 
+.google-outer-text{
+  width: 85%;
+}
+.google-outer-text h1{
+  width: 100%;
+}
 
 
 .tab-inner-main{
@@ -479,17 +485,17 @@ text-align: left;
 }
 #carouselThird .owl-nav{
   position: relative;
-  width: 50%;
+  width: 20%;
   align-self: flex-end;
 }
 .carouselfirst .owl-dots{
-  top: 93% !important;
+  top: 85% !important;
 }
 #carouselThird .owl-dots{
-  top: 93% !important;
+  top: 85% !important;
 }
 #carouselFirst .owl-dots{
-  top: 93% !important;
+  top: 85% !important;
 }
 #carouselSec .owl-dots{
   position: absolute;
@@ -735,6 +741,9 @@ text-align: left;
   }
   .min-footer{
     width: 90% !important;
+  }
+  .google-outer-text{
+    width: 95%;
   }
   .login{
     color: #fff !important;
