@@ -39,23 +39,28 @@ body {
   font-size: 18px;
   border-radius: 10px;
   padding: 15px 50px;
-  color: #06817D;
+  color: #FF7070;
   text-align: center;
   letter-spacing: 1px;
   font-weight: 500;
+}
+.banner-inner-main-pp{
+  padding: 25px 40px !important;
 }
 .banner-btn-register{
   width: 90% !important;
 }
 .membership-btn{
-  background-color: #06817D;
+  background: #FF7070;
+
   color: lightgray;
 }
 .membership-btn span{
   color: #fff !important;
 }
 .membership-row-div h1{
-  color: #06817D;
+  color: #FF7070;
+  font-weight: 700;
 }
 .banner-img{
   background-image: url('./Images/unsplash_376KN_ISplE.png');
@@ -67,7 +72,7 @@ body {
 }
 .banner-inner-main{
   width: 80%;
-  background-color: #06817D;
+  background: #FF7070;
   border-radius: 30px;
 }
 .membership-row{
@@ -105,7 +110,39 @@ body {
 
 
 
-
+.tab-inner-main{
+  width: 85%;
+}
+.tab-content{
+  border: none !important;
+}
+.tab-pane{
+  border:  none !important;
+}
+.nav-tabs{
+  border: none !important;
+  padding: 0 !important;
+  flex: .55;
+}
+.tab-content{
+  flex: .45;
+}
+.tab-main-2{
+  display:none;
+}
+.tab-main-1{
+  display: flex !important;
+}
+.nav-tabs .nav-item a{
+  padding: 15px 30px !important;
+  color: #fff !important;
+  font-size: 20px;
+  background-color: #FFB7B7;
+  border-radius: 5px;
+}
+.nav-tabs .nav-item .active{
+  background-color: #ff7070 !important;
+}
 /* .banner-inner {
   width: 80%;
 } */
@@ -177,6 +214,7 @@ font-size: 14px;
   padding: 0 20px;
   text-align: center;
   line-height: 30px;
+  color: grey;
 }
 .min-footer {
   width: 80%;
@@ -186,6 +224,13 @@ font-size: 14px;
 .min-footer a {
   cursor: pointer;
   margin-right: 10px;
+  color: grey;
+  font-weight: 700;
+}
+.min-footer a:hover {
+  color: lightgrey;
+  list-style: none;
+  text-decoration: none;
 }
 .last-btn {
   padding-bottom: 80px;
@@ -200,7 +245,11 @@ font-size: 14px;
   background: url("./Images/Bg.jpg");
 }
 .should-last{
-  width:45%;
+  width: 60%;
+}
+.should-main{
+  padding: 30px 0;
+  width: 80%;
 }
 .should-main h1 {
   margin-bottom: 40px;
@@ -348,15 +397,7 @@ text-align: center;
   height: 380px;
   width: 50%;
 }
-.min-footer a {
-  color: black;
-  font-weight: 700;
-}
-.min-footer a:hover {
-  color: gray;
-  list-style: none;
-  text-decoration: none;
-}
+
 .carouselfirst-inner-main {
   padding: 100px 0;
   background-color: #e5e5e5;
@@ -419,6 +460,11 @@ text-align: left;
   flex-direction: column;
   /* background-color: red; */
 }
+#carouselThird{
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
 #carouselSec .owl-nav{
   position: relative;
   width: 20%;
@@ -429,7 +475,15 @@ text-align: left;
   width: 20%;
   align-self: flex-end;
 }
+#carouselThird .owl-nav{
+  position: relative;
+  width: 50%;
+  align-self: flex-end;
+}
 .carouselfirst .owl-dots{
+  top: 93% !important;
+}
+#carouselThird .owl-dots{
   top: 93% !important;
 }
 #carouselFirst .owl-dots{
@@ -445,6 +499,11 @@ text-align: left;
   width: 80%;
   top:90%;
 }
+#carouselThird .owl-dots{
+  position: absolute;
+  width: 80%;
+  top:90%;
+}
 .carouselSec{
   width: 90% !important;
 }
@@ -455,21 +514,39 @@ text-align: left;
   width: 50%;
   color: red !important;
 }
+#carouselThird .owl-dots .owl-dot{
+  width: 50%;
+  color: red !important;
+}
 .owl-carousel .active span {
-  background-color: #06817D !important;
+  background-color: #FF7070 !important;
 }
 .owl-carousel .owl-dots .owl-dot span{
   width: 98% !important;
   height: 5px !important;
 }
+/* #carouselThird .owl-dots .owl-dot span{
+  width: 98% !important;
+  height: 5px !important;
+} */
 .owl-carousel .owl-nav .owl-prev,
 .owl-carousel .owl-nav .owl-next {
-  background-color: #06817D !important;
+  background-color: #ff7070 !important;
   font-size: 25px !important;
+  border-radius: 12px !important;
   color: #fff !important;
-  width: 25% !important;
-  height: 60% !important;
+  width: 30% !important;
+  height: 50px !important;
 }
+/* #carouselThird .owl-nav .owl-prev,
+#carouselThird .owl-nav .owl-next {
+  background-color: red !important;
+  font-size: 25px !important;
+  border-radius: 12px !important;
+  color: #fff !important;
+  width: 50% !important;
+  height: 50px !important;
+} */
 
 .content {
   background: #fff;
@@ -531,7 +608,7 @@ text-align: left;
   font-size: 50px;
 }
 .tab-inner p{
-   background: #83BFBE;
+  background: #FF7070;
    border-radius: 10px;
    text-align: center;
    padding: 15px 5px;
@@ -548,19 +625,16 @@ text-align: left;
   width: 80%;
 }
 .tab-lower{
-  color: #06807D;
+  color: #FF7070;
+
   padding: 25px 20px; 
-  background: #E8FFFE;
+  background: rgba(255, 112, 112, 0.05);
 }
 .tab-lower p{
   line-height: 30px;
+  color: black !important;
 }
-.nav-item .active{
-  background-color: #06807D !important;
-}
-.banner-inner-main-pp{
-  padding: 0 40px !important;
-}
+
 .socialMedia{
  color: #fff;
   padding: 8px 25px;
@@ -568,15 +642,72 @@ text-align: left;
   margin-bottom: 10px;
   border: none;
 }
-.hover-img{
-  /* transform: translateZ(20px); */
- /* transform: translateY(-20px);
- transform: translateX(-25px); */
+
+#main {
+  margin: 50px 0;
+}
+
+#main #faq .card {
+  margin-bottom: 15px;
+  border: 0 !important;
+}
+#main #faq .card .card-header {
+  border: 0;
+  /* -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+          box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5); */
+  border-radius: 2px;
+  padding: 0;
+}
+/* #main #faq .card .card-header a{
+  font-size: 14px;
+  padding: 0;
+} */
+
+#main #faq .card .card-header .btn-header-link {
+  color: #fff;
+  display: block;
+  text-align: left;
+  background: #FF7070;
+  color: #fff;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#main #faq .card .card-header .btn-header-link:after {
+  /* content: "\f107";
+  font-family: 'Font Awesome 5 Free'; */
+  font-weight: 900;
+  float: right;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed {
+ 
+  background: #FFB7B7 ;
+  color: #fff;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed:after {
+  /* content: "\f106"; */
+}
+
+#main #faq .card .collapsing {
+  /* background: #FFE472; */
+  line-height: 30px;
+}
+
+#main #faq .card .collapse {
+  border: 0;
+}
+
+#main #faq .card .collapse.show {
+  background: #FFF8F8;
+  line-height: 30px;
+  color: #fff;
 }
 @media (max-width: 958px) {
-  .banner-inner-main-pp{
+  /* .banner-inner-main-pp{
     padding: 8px !important;
-  }
+  } */
   .banner-inner-main-text{
     font-size:xx-large !important;
   }
@@ -598,10 +729,16 @@ text-align: left;
 }
 @media (max-width: 777px) {
   .navbar{
-    background-color: #06807D;
+    background-color: #ff7070;
+  }
+  .min-footer{
+    width: 90% !important;
   }
   .login{
     color: #fff !important;
+  }
+  .card-text{
+    font-size: 15px;
   }
   .signup{
     border: 2px solid #fff;
@@ -610,17 +747,25 @@ text-align: left;
   .faq-ot{
     width: 95% !important;
   }
+  .tab-main-2{
+    display: flex;
+  }
+  .tab-main-1{
+    display: none !important;
+  }
   .banner-inner-main{
     border-radius: 0;
     width: 100%;
   }
   .banner-inner-main-pp{
-    padding: 10px !important;
+    padding: 0 10px  !important;
+    order: 2;
   }
   .banner-img{
     border-top-right-radius: 0;
     height: 400px;
     border-bottom-right-radius: 0;
+    order: 1;
   }
   .banner-inner-main-text{
     font-size: 38px !important;
@@ -655,17 +800,17 @@ text-align: left;
     font-size: 30px !important;
   }
   .membership-row-div h1{
-    font-size: 18px;
+    font-size: 13px;
   }
   .membership-row-div p{
-    font-size: 12px;
+    font-size: 11px;
   }
   .membership-row-inner{
-   padding:10px !important;
+   padding: 0 !important;
   }
   .banner-btn-register{
-    padding: 10px 15px;
-    font-size: 14spx;
+    padding: 10px 15px !important;
+    font-size: 15px !important;
    }
    .register img{
      width: 4%;
@@ -710,13 +855,22 @@ text-align: left;
     width: 100% !important;
   }
   .student-inner p{
-   width: 90% !important;
+   width: 99% !important;
+   font-size: 18px;
+  }
+  .student-inner h1{
+    font-size: 28px;
   }
   .student-btn {
+    margin-top: 15px;
    padding: 10px !important;
+   font-size: 15px !important;
   }
   .carouselfirst-inner-text{
     margin-left: 0 !important;
+  }
+  .should-main{
+    width: 100% !important;
   }
   .should-main h1 {
     font-size: 40px;
@@ -754,7 +908,10 @@ text-align: left;
     width: 75% !important;
   }
   .social-icon{
-    width: 75%;
+    width: 90%;
+  }
+  .social-icon i {
+    margin-right: 15px;
   }
   .register h1{
     font-size: 30px;
