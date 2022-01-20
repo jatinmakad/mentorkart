@@ -13,6 +13,14 @@ body {
   width: 100px;
   background-color: transparent;
 }
+.owl-img img{
+  width: 70% !important;
+}
+.owl-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .login{
   color: #06817D !important;
   font-size: 22px;
@@ -749,6 +757,9 @@ text-align: left;
   }
   .login{
     color: #fff !important;
+  }
+  .owl-img img{
+    width: 100% !important;
   }
   .card-text{
     font-size: 15px;
