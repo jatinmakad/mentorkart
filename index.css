@@ -38,8 +38,17 @@ body {
 .banner-inner-main-container{
   width: 75%;
 }
+.banner-inner-main-container p{
+  color: black;
+}
+/* .banner-inner-main-pp p{
+  background-color: #FFB7B7;
+} */
 .navbar-inner {
   width: 80%;
+}
+.banner-inner-main-container h1{
+  color: #FF7070;
 }
 .banner-btn{
   background-color: #fff;
@@ -74,12 +83,11 @@ body {
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-radius: 30px;
 }
 .banner-inner-main{
   width: 80%;
-  background: #FF7070;
+  background: #fff;
   border-radius: 30px;
 }
 .membership-row{
@@ -148,12 +156,13 @@ body {
 }
 .nav-tabs .nav-item a{
   padding: 15px 30px !important;
-  color: #fff !important;
+  color: gray !important;
   font-size: 20px;
-  background-color: #FFB7B7;
+  background-color: lightgray;
   border-radius: 5px;
 }
 .nav-tabs .nav-item .active{
+  color: #fff !important;
   background-color: #ff7070 !important;
 }
 /* .banner-inner {
@@ -255,7 +264,7 @@ font-size: 14px;
   padding: 30px 0;
 }
 .should-outer {
-  background: url("./Images/un1.png");
+  background: url("./Images/box21.png");
 }
 .should-last{
   width: 60%;
@@ -285,12 +294,14 @@ font-size: 14px;
   align-items: center;
   flex-direction: row;
   border: none;
-  background: #fff;
+  background: black;
+
   border-radius: 20px;
   padding: 7px;
 }
 .should-bar p{
   margin-top: 10px;
+  color: #fff;
 }
 .should-bar img {
   /* width: 10%; */
@@ -640,14 +651,19 @@ text-align: left;
   width: 80%;
 }
 .tab-lower{
-  color: #FF7070;
-
+  color: black;
   padding: 25px 20px; 
   background: rgba(255, 112, 112, 0.05);
 }
 .tab-lower p{
   line-height: 30px;
   color: black !important;
+}
+.nav-tabs .nav-link{
+  font-weight: 800;
+}
+.tab-lower h1{
+  font-weight: 800;
 }
 
 .socialMedia{
@@ -697,8 +713,8 @@ text-align: left;
 
 #main #faq .card .card-header .btn-header-link.collapsed {
  
-  background: #FFB7B7 ;
-  color: #fff;
+  background: lightgray;
+  color: black;
 }
 
 #main #faq .card .card-header .btn-header-link.collapsed:after {
@@ -743,9 +759,9 @@ text-align: left;
   }
 }
 @media (max-width: 777px) {
-  .navbar{
+  /* .navbar{
     background-color: #ff7070;
-  }
+  } */
   .min-footer{
     width: 90% !important;
   }
@@ -777,6 +793,13 @@ text-align: left;
   .tab-main-1{
     display: none !important;
   }
+  .span-color{
+    color: #FF7070;
+  }
+  .remove-bg{
+    background-color: #fff !important;
+    padding: 0 !important;
+  }
   .banner-inner-main{
     border-radius: 0;
     width: 100%;
@@ -786,9 +809,8 @@ text-align: left;
     order: 2;
   }
   .banner-img{
-    border-top-right-radius: 0;
     height: 400px;
-    border-bottom-right-radius: 0;
+    border-radius: 0;
     order: 1;
   }
   .banner-inner-main-text{
@@ -940,6 +962,13 @@ text-align: left;
   .register h1{
     font-size: 30px;
   }
+  #carouselThird .owl-nav{
+    width: 100% !important;
+  }
+  #carouselThird .owl-nav .owl-prev,
+  #carouselThird .owl-nav .owl-next {
+  width: 20% !important;
+}
 }
 @media (max-width: 1040px) {
 }
