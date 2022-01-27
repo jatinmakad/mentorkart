@@ -8,6 +8,14 @@ body {
   width: 100%;
   height: 100%;
 }
+.header-navbar{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header-navbar-inner{
+  width: 80%;
+}
 .site-logo {
   width: 100px;
   background-color: transparent;
@@ -19,6 +27,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.tab-main-h1{
+   font-weight: 900 !important;
+
 }
 .login {
   color: #06817d !important;
@@ -39,12 +51,14 @@ body {
 }
 .banner-inner-main-container p {
   color: black;
+  font-weight: 600;
 }
 .navbar-inner {
   width: 80%;
 }
 .banner-inner-main-container h1 {
   color: #ff7070;
+  font-weight: 800;
 }
 .banner-btn {
   background-color: #fff;
@@ -82,7 +96,7 @@ body {
   border-radius: 30px;
 }
 .banner-inner-main {
-  width: 80%;
+  width: 85%;
   background: #fff;
   border-radius: 30px;
 }
@@ -127,7 +141,7 @@ body {
 }
 
 .tab-inner-main {
-  width: 80%;
+  width: 83%;
 }
 .tab-content {
   border: none !important;
@@ -152,7 +166,7 @@ body {
 .nav-tabs .nav-item a {
   padding: 15px 30px !important;
   color: gray !important;
-  font-size: 20px;
+  font-size: 18px;
   background-color: rgb(228, 226, 226);
   border-radius: 5px;
 }
@@ -246,7 +260,7 @@ body {
 }
 .should-main {
   padding: 30px 0;
-  width: 80%;
+  width: 85%;
 }
 .should-main h1 {
   margin-bottom: 40px;
@@ -674,12 +688,19 @@ body {
   }
   .banner-inner-main-container {
     font-size: smaller !important;
+    width: 95%;
+  }
+  .banner-inner-main {
+    width: 95%;
   }
   .membership-row {
     width: 90% !important;
   }
   .membership-row-text {
     font-size: xx-large;
+  }
+  .header-navbar-inner{
+    width: 95%;
   }
   .membership-row-div h1 {
     font-size: x-large !important;
@@ -692,14 +713,36 @@ body {
   .min-footer {
     width: 90% !important;
   }
+  .should-bar p {
+    font-size: 15px;
+
+  }
+  .banner-btn {
+    font-size: 16px;
+    letter-spacing: normal;
+    padding: 10px 5px;
+    border-radius: 5px;
+  }
+
   .owl-carousel .owl-nav {
     width: 50% !important;
   }
   .google-outer-text {
     width: 95%;
   }
+  .tab-main-h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .btn-header-link{
+    font-size: 11px !important;
+  }
   .login {
     color: #fff !important;
+  }
+  .membership-btn{
+    padding: 10px 3px !important;
+    font-size: 15px;
   }
   .owl-img img {
     width: 100% !important;
@@ -782,8 +825,9 @@ body {
     padding: 0 !important;
   }
   .banner-btn-register {
-    padding: 10px 15px !important;
-    font-size: 15px !important;
+    padding: 10px 3px !important;
+    font-size: 16px !important;
+    width: 100% !important;
   }
   .register img {
     width: 4%;
@@ -798,9 +842,16 @@ body {
   }
   .frame-inner {
     display: flex;
+    width: 100% !important;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+  }
+  .frame-inner-outer{
+    padding: 0 !important;
+  }
+  .frame{
+    padding:0 15px !important;
   }
   .frame-inner h1 {
     font-size: 10px;
@@ -847,7 +898,7 @@ body {
   }
   .should-main h1 {
     font-size: 40px;
-    width: 90%;
+    width: 100%;
   }
   .should-inner {
     width: 95%;
@@ -888,6 +939,9 @@ body {
   }
   .register h1 {
     font-size: 30px;
+  }
+  .register{
+    width: 100%;
   }
   #carouselThird .owl-nav {
     width: 100% !important;
