@@ -8,12 +8,12 @@ body {
   width: 100%;
   height: 100%;
 }
-.header-navbar{
+.header-navbar {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-.header-navbar-inner{
+.header-navbar-inner {
   width: 80%;
 }
 .site-logo {
@@ -28,9 +28,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-.tab-main-h1{
-   font-weight: 900 !important;
-
+.tab-main-h1 {
+  font-weight: 900 !important;
 }
 .login {
   color: #06817d !important;
@@ -430,7 +429,7 @@ body {
   font-size: 25px;
   font-weight: 600;
 }
-.owl-img img{
+.owl-img img {
   width: 60% !important;
 }
 .carouselfirst-inner-p-last {
@@ -699,7 +698,7 @@ body {
   .membership-row-text {
     font-size: xx-large;
   }
-  .header-navbar-inner{
+  .header-navbar-inner {
     width: 95%;
   }
   .membership-row-div h1 {
@@ -715,7 +714,6 @@ body {
   }
   .should-bar p {
     font-size: 15px;
-
   }
   .banner-btn {
     font-size: 16px;
@@ -730,17 +728,17 @@ body {
   .google-outer-text {
     width: 95%;
   }
-  .tab-main-h1{
+  .tab-main-h1 {
     font-size: 28px;
     margin-bottom: 20px;
   }
-  .btn-header-link{
+  .btn-header-link {
     font-size: 11px !important;
   }
   .login {
     color: #fff !important;
   }
-  .membership-btn{
+  .membership-btn {
     padding: 10px 3px !important;
     font-size: 15px;
   }
@@ -847,11 +845,11 @@ body {
     align-items: flex-start;
     text-align: left;
   }
-  .frame-inner-outer{
+  .frame-inner-outer {
     padding: 0 !important;
   }
-  .frame{
-    padding:0 15px !important;
+  .frame {
+    padding: 0 15px !important;
   }
   .frame-inner h1 {
     font-size: 10px;
@@ -940,7 +938,7 @@ body {
   .register h1 {
     font-size: 30px;
   }
-  .register{
+  .register {
     width: 100%;
   }
   #carouselThird .owl-nav {
